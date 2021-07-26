@@ -1,0 +1,78 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #313131;
+}
+
+.container {
+    max-width: 400px;
+    min-height: 200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid crimson;
+    border-radius: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img:not(.logo) {
+    width: 100%;
+}
+
+img {
+    display: block;
+}
+
+.btn {
+    font-size: 0.8rem;
+    color: crimson;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 0.325rem 0.55rem;
+    margin: 0.5rem 0.2rem;
+    letter-spacing: var(--spacing);
+    display: inline-block;
+    border: 2px solid crimson;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: crimson;
+}
+
+.add-form {
+    margin-bottom: 3rem;
+}
+
+.form-control {
+    margin: 1.5rem 0;
+}
+
+.form-control label {
+    display: block;
+}
+
+.form-control input {
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+}
