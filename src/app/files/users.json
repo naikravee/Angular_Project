@@ -1,0 +1,23 @@
+[  
+    {  
+      "id": 1,  
+      "name": "Jack",  
+      "email": "jack@gmail.com", 
+      "city": "Mumbai",
+      "phone": 123456789  
+    },
+    {
+      "id": 2,  
+      "name": "Rose",  
+      "email": "rose@gmail.com",  
+      "city": "Delhi",
+      "phone": 123456789  
+    },
+    {
+        "id": 3,  
+        "name": "Matthew",  
+        "email": "matt@gmail.com",  
+        "city": "Bangalore",
+        "phone": 123456789  
+    }
+]

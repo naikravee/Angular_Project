@@ -1,0 +1,77 @@
+.mat-toolbar {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-container {
+  margin-top: 2rem;
+  overflow: auto;
+}
+
+.table-data {
+  width: 100%;
+  padding: 1rem;
+}
+
+tr {
+  padding: 0.5rem;
+}
+
+th {
+  background-color: #444444;
+  color: #fff;
+}
+
+.mat-header-cell {
+  padding-left: 0.5rem;
+}
+
+td.mat-column-star {
+  width: 20px;
+  padding-right: 8px;
+}
+
+.mat-row td {
+  height: 100%;
+  position: relative;
+  border-bottom: none;
+  padding: 0.5rem;
+  z-index: 2;
+}
+
+.mat-row td:first-child {
+  padding-left: 1.5rem;
+}
+
+.mat-row td::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 0.5rem);
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  z-index: -1;
+}
+
+.mat-row td:first-child:before {
+  border-left: 1px solid #ccc;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.mat-row td:last-child:before {
+  border-right: 1px solid #ccc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.mat-row:hover td::before {
+  background-color: #ffe6f0;
+  border-color: #ff66a3;
+}
